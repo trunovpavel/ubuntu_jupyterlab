@@ -5,7 +5,7 @@ RUN apt-get -y update \
 	&& apt-get install -y python3-pip \
 	&& apt-get install -y curl \
 	
-	&& pip3 install jupyterlab trsfile tqdm plotly pandas ipywidgets \
+	&& pip3 install jupyterlab tqdm plotly pandas ipywidgets \
 	&& pip3 install jupyterlab "ipywidgets==7.5"
 
 RUN curl -sL https://deb.nodesource.com/setup_14.x | bash -
